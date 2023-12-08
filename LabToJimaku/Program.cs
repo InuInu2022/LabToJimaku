@@ -7,8 +7,6 @@ var labPath = args[0];
 //Labファイル読み込み
 var lab = await SasaraLabel.LoadAsync(labPath);
 
-//Console.WriteLine(lab.ToString());
-
 //音素からカナ変換の特別ルール
 WanaKanaOptions kanaOption = new()
 {
