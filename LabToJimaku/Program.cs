@@ -49,5 +49,3 @@ await File.WriteAllLinesAsync(
 	Path.ChangeExtension(labPath, "srt"),
 	output
 );
-
-//Console.WriteLine(string.Join(Environment.NewLine, output));
